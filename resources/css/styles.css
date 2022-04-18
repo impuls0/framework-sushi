@@ -1,0 +1,231 @@
+/* Barra superior */
+.barra-superior{
+  background-color: #96CEB4;
+  text-align: center;
+}
+.nombre-empresa {
+  font-family: 'Beau Rivage';
+  font-size: 2rem;
+  padding: 1% 3%;
+}
+
+.nav-link{
+  color: #fff;
+  font-size: 1.5rem;
+  font-family:'Playfair Display';
+  text-decoration: none;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+/* ------------------ */
+/* portada */
+.icon-titulo{
+  font-size: 3.5rem;
+  margin-left: 1.2%;
+}
+.white-color{
+  background-color: #fff;
+}
+.titulo-empresa{
+  font-size: 5rem;
+  text-align: center;
+}
+.slogan-empresa{
+  text-align: center;
+  color: #8f8f8f;
+}
+.titulo{
+  padding: 10% 5%;
+}
+.title-image{
+  margin: 8%;
+  width: 80%;
+}
+/* Footer */
+.fa-solid, .fa-brands {
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+#footer{
+  
+  position: relative;
+  margin: 20% 0 0 0;
+  padding: 1.5%;
+}
+/* Quienes Somos */
+.text-quienes{
+  padding: 3% 25%;
+}
+.carta-quienes-iz{
+  margin-left: 50%;
+
+}
+.carta-quienes-ed{
+  margin-left:14%;
+}
+.container-fluid{
+  text-align: center;
+}
+
+/* formulario */
+.imagen-formulario{
+  margin: 3% auto;
+  width: 100%;
+}
+.contactanos{
+  font-size: 2rem;
+  text-align: center;
+}
+.slogan-CONTÁCTANOS{
+  margin: 3% 5%;
+  text-align: center;
+  color: #8f8f8f;
+}
+.centrar{
+  margin: 2% 9% 2%;
+text-align: center;
+}
+.centrar-tex{
+  margin: 2% 3%;
+text-align: center;
+}
+
+
+/* Menu nav */
+body{
+  margin: 0;
+  background-color: #fff;
+}
+
+.nav{
+  position: absolute;
+  top: 1;
+  
+  width: 350px;
+  height: 85rem;
+  padding-top: 1.5rem;
+  background-color: #1A3C40;
+  transform: translateX(-350px);
+  transition: transform 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .nav{
+      transform: translateX(-290px);
+      height: 130rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav{
+      transform: translateX(0px);
+      height: 100%;
+  } 
+}
+
+.nav--show {
+  transform: translateX(-300px);
+}
+
+.nav--show .toggle-menu {
+  left: 295px;
+  top: 0;
+  color: lightblue;
+}
+
+.toggle-menu {
+  position:absolute;
+  top: 0;
+  left: 300px;
+  font-size: 2rem;
+  color: lightblue;
+  width: 80px;
+  height: 30px;
+  padding: 4rem;
+  z-index: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-menu{
+      display: none;
+  }
+  
+}
+
+.main {
+  margin-left: 0px;
+  min-height: 100vh;
+  padding-top: 2.5rem;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .main{
+      margin-left: 50px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .main{
+      margin-left: 350px;
+  }
+  
+}
+
+.main-menu {
+  padding-left: 0;
+}
+
+.main-menu--show{
+  transform: translateX(260px);
+}
+
+.main-menu--show .main-menu_item {
+  transform: translateX(-300px);
+}
+
+.main-menu--show .main-menu_icon {
+  transform: translateX(300px);
+  color:#96CEB4
+}
+
+.main-menu_item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.main-menu_link{
+  width: 210px;
+  padding: 1rem 3rem;
+  border-radius: 0 10px 10px 0;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-menu_icon{
+  margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu_icon{
+      transform: translateX(245px);
+      color: #96CEB4;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .main-menu_icon{
+      transform: translateX(0);
+      color: #96CEB4;
+  }
+}
